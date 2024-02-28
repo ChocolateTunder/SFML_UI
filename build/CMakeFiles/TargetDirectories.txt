@@ -1,3 +1,0 @@
-/home/rafael/Projects/SFML_UI/build/CMakeFiles/rebuild_cache.dir
-/home/rafael/Projects/SFML_UI/build/CMakeFiles/edit_cache.dir
-/home/rafael/Projects/SFML_UI/build/CMakeFiles/SFML_GUI.dir
