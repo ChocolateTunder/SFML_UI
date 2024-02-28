@@ -1,15 +1,15 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <string>
-#include "../include/headers/Button.h"
+#include "Button.h"
 
-int main(){
+int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML GUI!");
     sf::Event event;
     sf::Font font;
 
     //Set default font
-    if (!font.loadFromFile("../assets/fonts/JetBrainsMonoNerdFontMono-Regular.ttf")) {
+    if (!font.loadFromFile("assets/fonts/JetBrainsMonoNerdFontMono-Regular.ttf")) {
         std::cout << "Error loading font" << std::endl;
     }
 

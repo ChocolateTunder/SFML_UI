@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <string>
-#include "../include/headers/Button.h"
+#include "Button.h"
 
 Button::Button(float width, float height, float outlineThickness, float posX, float posY, sf::Color fill, sf::Color outline, 
                                                 const std::string& string, int textSize, sf::Font& font, sf::Color textFill){
