@@ -1,3 +1,5 @@
+#include <SFML/Graphics.hpp>
+#include <string>
 #include "../include/headers/Button.h"
 
 Button::Button(float width, float height, float outlineThickness, float posX, float posY, sf::Color fill, sf::Color outline, 

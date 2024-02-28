@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Projects/SFML_UI/include/headers/Button.h
+SFML/Graphics.hpp
+-
+string
+-
+
+/home/rafael/Projects/SFML_UI/src/main.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+string
+-
+../include/headers/Button.h
+/home/rafael/Projects/SFML_UI/include/headers/Button.h
+

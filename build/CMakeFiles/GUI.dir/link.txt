@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/GUI.dir/src/main.cpp.o CMakeFiles/GUI.dir/src/Button.cpp.o  -o GUI 

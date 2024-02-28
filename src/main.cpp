@@ -9,7 +9,7 @@ int main(){
     sf::Font font;
 
     //Set default font
-    if (!font.loadFromFile("./resources/fonts/JetBrainsMonoNerdFontMono-Regular.ttf")) {
+    if (!font.loadFromFile("../assets/fonts/JetBrainsMonoNerdFontMono-Regular.ttf")) {
         std::cout << "Error loading font" << std::endl;
     }
 
