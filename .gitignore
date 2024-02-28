@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 gitignore
 bin/
 build/
+=======
+build/
+bin/
+.idea/
+>>>>>>> d4166556431a767e75bc8e769a1ddf76dab08e94
