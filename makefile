@@ -1,6 +1,5 @@
-compile:./main.cpp
-	g++ -c ./main.cpp
-	g++ main.o -o app -lsfml-graphics -lsfml-window -lsfml-system
+compile:./src/main.cpp
+	g++ -c ./src/main.cpp ./include/Button.cpp -I /include/headers/Button.h -lsfml-graphics -lsfml-window -lsfml-system
 
 run:
-	./app
+	./bin/app
